@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Photography Portfolio </title>
+    <!-- Swiper JS  -->
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper/swiper-bundle.min.css"
+/>
+<!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet">
+ <!-- font awesome for icons -->
+ <script src="https://kit.fontawesome.com/107df7ad6f.js" crossorigin="anonymous"></script>
+     <!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Hero Section -->
+<section class="hero">
+   <!-- Hero Section -->
+<header class="hero">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            
+
+            <div class="carousel-item active">
+                <img src="images/beach.jpg" class="d-block w-100" alt="Slide 1">
+            </div>
+
+            <div class="carousel-item active">
+                <img src="images/couple2.jpg" class="d-block w-100" alt="Slide 2">
+            </div>
+
+            
+            <div class="carousel-item active">
+                <img src="images/background2.jpg" class="d-block w-100" alt="Slide 3">
+            </div>
+            
+            <div class="carousel-item active">
+                <img src="images/weds.jpg" class="d-block w-100" alt="Slide 4">
+            </div>
+
+            
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+    <div class="hero-content">
+         <h1>
+             Welcome to our Photography World
+           
+          </h1>
+        
+        <p id="para">Explore stunning photos captured by our talented photographers.</p>
+    </br> 
+    <a href="#gallery" class="btn btn-link">Visit Gallery</a>
+</br></br>
+     <a href="#testimonialCarousel" class="btn btn-link">Testimonials</a>
+    </div>
+    
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#exhibitions">Exhibitions</a>
+                    </li>
+                </ul>
+                <ul class="nav_socials">
+                    <li><a href="https://instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
+
+                    <li><a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+
+                    <li><a href="https://youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+
+
+                
+            </div>
+
+             
+            
+        </div>
+        
+    </nav>
+   
+    <!--            End of Navbar               -->
+</header>
+<!--               End of Hero Section           -->
+
+</section>
+
+
+
+<section id="gallery">
+    <div class="container gallery_container">
+           <div class="gallery_head"></div>
+              <h2 class="gallery_title">My Gallery </h2>
+           </div>
+           <p>
+            dolor sit amet consectetur adipisicing elit. Deserunt illo, aliquam ea dignissimos culpa nesciunt eligendi doloribus ut molestiae sapiente iste nihil, impedit architecto enim quis ipsum maiores atque ad.
+           </p>
+           <swiper-container class="mySwiper" navigation="true" pagination="true" effect="flip" grab-cursor="true">
+            <swiper-slide>
+              <img src="images/gallery11.jpg" />
+            </swiper-slide>
+            <swiper-slide>
+              <img src="images/gallery10.jpg" />
+            </swiper-slide>
+            <swiper-slide>
+              <img src="images/gallery9.jpg" />
+            </swiper-slide>
+            <swiper-slide>
+              <img src="images/gallery8.jpg" />
+            </swiper-slide>
+            <swiper-slide>
+              <img src="images/gallery7.jpg" />
+            </swiper-slide>
+            <swiper-slide>
+              <img src="images/gallery6.jpg" />
+            </swiper-slide>
+            <swiper-slide>
+                <img src="images/gallery5.jpg" />
+              </swiper-slide>
+              <swiper-slide>
+                <img src="images/gallery4.jpg" />
+              </swiper-slide>
+              <swiper-slide>
+                <img src="images/gallery3.jpg" />
+              </swiper-slide>
+              <swiper-slide>
+                <img src="images/gallery2.jpg" />
+              </swiper-slide>
+              <swiper-slide>
+                <img src="images/gallery1.jpg" />
+              </swiper-slide>
+          </swiper-container>
+</section>
+
+<!--              END OF GALLERY           -->
+
+
+<!--            TESTIMONIAL SECTION         -->
+<section class="testimonial">
+    
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <h2 class="section-title">Testimonials</h2>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="testimonial-slide">
+                    <h2 class="testimonial-title">Davis &amp; Sylvia</h2>
+                    <div class="testimonial-slide-image">
+                        <img src="images/about.jpg" alt="Slide 1 Image" class="img-fluid">
+                    </div>
+                    <div>
+                    <p class="testimonial-text">Where do I even start describing the unreal experience we've had with Vanessa? Lorem ipsum dolor sit amet, et amet wisi suspendisse eu vestibulum vel, malesuada magna in ultricies ipsum, class vel platea sem nulla et. Sed donec. Ultricies in etiam elit diam sem sollicitudin, varius in duis.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="testimonial-slide">
+                    <h2 class="testimonial-title">Mike &amp; Susan</h2>
+                    <div class="testimonial-slide-image">
+                        <img src="images/background.jpg" alt="Slide 2 Image" class="img-fluid">
+                    </div>
+                    <div>
+                    <p class="testimonial-text">Vanessa exceeded all our expectations! Lorem ipsum dolor sit amet, et amet wisi suspendisse eu vestibulum vel, malesuada magna in ultricies ipsum, class vel platea sem nulla et. Sed donec. Ultricies in etiam elit diam sem sollicitudin, varius in duis. Turpis nunc nulla leo curae elementum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="testimonial-slide">
+                    <h2 class="testimonial-title">Jacky &amp; Ryan</h2>
+                    <div class="testimonial-slide-image">
+                        <img src="images/bg1.png" alt="Slide 3 Image" class="img-fluid">
+                    </div>
+                    <div>
+                        <div>
+                            <p class="testimonial-text">Vanessa is mind-blowing in all aspects, from the communication and all the resources and tips she shared with us, to the amazing, fun experience we had on the day of our elopement. Sed donec. Ultricies in etiam elit diam sem sollicitudin, varius in duis. Turpis nunc nulla leo curae elementum.</p>
+                   </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</section>
+  
+<!-- photo slider - HIGHLIGHTS -->
+
+<section>
+   
+    <div id="highlights" class="carousel slide" data-bs-ride="carousel">
+        <h2> Highlights </h2>
+        <div class="carousel-inner" id="photo-slider">
+          <div class="carousel-item active">
+            <img src="images/women.jpg" class="d-block w-10" alt="...">
+          </div>
+          <div class="carousel-item" id="photo-slider">
+            <img src="images/womenwithcam.jpg" class="d-block w-10" alt="...">
+          </div>
+          <div class="carousel-item" id="photo-slider">
+            <img src="images/womenFace.jpg" class="d-block w-10" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+ 
+<!--             ABOUT SECTION        -->
+
+<section id="about">
+    <div class="container about_container">
+        <h2 class="about_title">About<br/>Priyanka Wani</h2>
+        <a href="mailto:priyankawani890@gmail.com" class="contact_btn about_btn">
+            <i class="fa-solid fa-envelope-circle-check"></i>
+            <p>CONTACT - SEND ME AN EMAIL</p>
+        </a>
+    <div class="about_left">
+        <div class="about_image">
+            <div class="about_image-bg">   
+            </div>
+            <div class="about_image-lg">
+                <img src="images/about2.jpg" alt="About Priyanka" >
+            </div>
+                 
+            <div class="about_image-sm">
+                <img src="images/about2.jpg" alt="About Priyanka" >
+            </div>
+        </div>
+    </div>
+    <div class="about_right">
+        <div class="empty about_empty"></div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt illo, aliquam ea dignissimos culpa nesciunt eligendi doloribus ut molestiae sapiente iste nihil, impedit architecto enim quis ipsum maiores atque ad.
+            </p>
+            <p>
+                dolor sit amet consectetur adipisicing elit. Deserunt illo, aliquam ea dignissimos culpa nesciunt eligendi doloribus ut molestiae sapiente iste nihil, impedit architecto enim quis ipsum maiores atque ad.
+              </p> 
+              <p>
+                 ipsum dolor sit amet consectetur adipisicing elit. Deserunt illo, aliquam ea dignissimos culpa nesciunt eligendi doloribus ut molestiae sapiente iste nihil, impedit architecto enim quis ipsum maiores atque ad.
+              </p>
+        
+    </div>
+</section>
+
+ <!--          END OF ABOUT                       -->
+
+<footer class="container footer_container" id="thanks">
+    <div class="footer_head">
+    <h2 class="footer_title">priyankawani890@gmail.com</h2>
+    <a href="mailto:priyankawani890@gmail.com"></a>
+    <p>
+        Thank You for Visiting!
+    </p>
+    </div>
+    <ul class="footer_links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonialCarousel">Testimonials</a></li>
+    </ul>
+</footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper JS CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+    
+
+<!-- Custom JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
